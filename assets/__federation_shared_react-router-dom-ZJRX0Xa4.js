@@ -1,4 +1,4 @@
-import { i as importShared } from './_virtual___federation_fn_import-Zs0-pVYH.js';
+import { i as importShared } from './_virtual___federation_fn_import-08EvUJlr.js';
 
 /**
  * @remix-run/router v1.14.2

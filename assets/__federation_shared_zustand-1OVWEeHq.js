@@ -1,7 +1,7 @@
-import { i as importShared } from './_virtual___federation_fn_import-Zs0-pVYH.js';
+import { i as importShared } from './_virtual___federation_fn_import-08EvUJlr.js';
 import { r as reactExports, g as getDefaultExportFromCjs } from './__federation_shared_react--XDvrPc_.js';
 
-var define_import_meta_env_default$1 = { VITE_PRODUCT_MFE_URL: "http://127.0.0.1:3001/product-mfe/assets/product-mfe-entry.js", VITE_CART_MFE_URL: "https://vipulpathak113.github.io/cart-mfe/assets/cart-mfe-entry.js", VITE_ABOUT_MFE_URL: "http://127.0.0.1:3003/about-mfe/assets/about-mfe-entry.js", BASE_URL: "/shopping-mfe/", MODE: "production", DEV: false, PROD: true, SSR: false };
+var define_import_meta_env_default$1 = { VITE_PRODUCT_MFE_URL: "https://vipulpathak113.github.io/product-mfe/assets/product-mfe-entry.js", VITE_CART_MFE_URL: "https://vipulpathak113.github.io/cart-mfe/assets/cart-mfe-entry.js", VITE_ABOUT_MFE_URL: "https://vipulpathak113.github.io/about-mfe/assets/about-mfe-entry.js", BASE_URL: "/shopping-mfe/", MODE: "production", DEV: false, PROD: true, SSR: false };
 const createStoreImpl = (createState) => {
   let state;
   const listeners = /* @__PURE__ */ new Set();
@@ -78,7 +78,7 @@ u(function(){f.hasValue=!0;f.value=d;},[d]);w(d);return d};
 var withSelectorExports = withSelector.exports;
 const useSyncExternalStoreExports = /*@__PURE__*/getDefaultExportFromCjs(withSelectorExports);
 
-var define_import_meta_env_default = { VITE_PRODUCT_MFE_URL: "http://127.0.0.1:3001/product-mfe/assets/product-mfe-entry.js", VITE_CART_MFE_URL: "https://vipulpathak113.github.io/cart-mfe/assets/cart-mfe-entry.js", VITE_ABOUT_MFE_URL: "http://127.0.0.1:3003/about-mfe/assets/about-mfe-entry.js", BASE_URL: "/shopping-mfe/", MODE: "production", DEV: false, PROD: true, SSR: false };
+var define_import_meta_env_default = { VITE_PRODUCT_MFE_URL: "https://vipulpathak113.github.io/product-mfe/assets/product-mfe-entry.js", VITE_CART_MFE_URL: "https://vipulpathak113.github.io/cart-mfe/assets/cart-mfe-entry.js", VITE_ABOUT_MFE_URL: "https://vipulpathak113.github.io/about-mfe/assets/about-mfe-entry.js", BASE_URL: "/shopping-mfe/", MODE: "production", DEV: false, PROD: true, SSR: false };
 const ReactExports = await importShared('react');
 const { useDebugValue } = ReactExports;
 const { useSyncExternalStoreWithSelector } = useSyncExternalStoreExports;

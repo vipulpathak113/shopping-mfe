@@ -1,4 +1,4 @@
-import { _ as __vitePreload, i as importShared } from './_virtual___federation_fn_import-Zs0-pVYH.js';
+import { _ as __vitePreload, i as importShared } from './_virtual___federation_fn_import-08EvUJlr.js';
 import { r as reactExports } from './__federation_shared_react--XDvrPc_.js';
 import { r as reactDomExports } from './__federation_shared_react-dom-xrZ2K6C7.js';
 
@@ -33,9 +33,9 @@ var m = reactDomExports;
 }
 
 const remotesMap = {
-'product-mfe':{url:'http://127.0.0.1:3001/product-mfe/assets/product-mfe-entry.js',format:'esm',from:'vite'},
+'product-mfe':{url:'https://vipulpathak113.github.io/product-mfe/assets/product-mfe-entry.js',format:'esm',from:'vite'},
   'cart-mfe':{url:'https://vipulpathak113.github.io/cart-mfe/assets/cart-mfe-entry.js',format:'esm',from:'vite'},
-  'about-mfe':{url:'http://127.0.0.1:3003/about-mfe/assets/about-mfe-entry.js',format:'esm',from:'vite'}
+  'about-mfe':{url:'https://vipulpathak113.github.io/about-mfe/assets/about-mfe-entry.js',format:'esm',from:'vite'}
 };
                 const loadJS = async (url, fn) => {
                     const resolvedUrl = typeof url === 'function' ? await url() : url;
@@ -57,7 +57,7 @@ const remotesMap = {
 
                 const wrapShareModule = remoteFrom => {
                     return {
-                        'react':{'18.2.0':{get:()=>get(new URL('__federation_shared_react--XDvrPc_.js', import.meta.url).href, remoteFrom), loaded:1}},'react-dom':{'18.2.0':{get:()=>get(new URL('__federation_shared_react-dom-xrZ2K6C7.js', import.meta.url).href, remoteFrom), loaded:1}},'react-router-dom':{'6.21.2':{get:()=>get(new URL('__federation_shared_react-router-dom-R7cno0YV.js', import.meta.url).href, remoteFrom), loaded:1}},'zustand':{'4.4.7':{get:()=>get(new URL('__federation_shared_zustand-JbEsKhep.js', import.meta.url).href, remoteFrom), loaded:1}}
+                        'react':{'18.2.0':{get:()=>get(new URL('__federation_shared_react--XDvrPc_.js', import.meta.url).href, remoteFrom), loaded:1}},'react-dom':{'18.2.0':{get:()=>get(new URL('__federation_shared_react-dom-xrZ2K6C7.js', import.meta.url).href, remoteFrom), loaded:1}},'react-router-dom':{'6.21.2':{get:()=>get(new URL('__federation_shared_react-router-dom-ZJRX0Xa4.js', import.meta.url).href, remoteFrom), loaded:1}},'zustand':{'4.4.7':{get:()=>get(new URL('__federation_shared_zustand-1OVWEeHq.js', import.meta.url).href, remoteFrom), loaded:1}}
                     }
                 };
 

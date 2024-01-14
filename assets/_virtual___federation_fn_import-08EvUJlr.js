@@ -419,7 +419,7 @@ function satisfy(version, range) {
 }
 
 // eslint-disable-next-line no-undef
-const moduleMap = {'react':{get:()=>()=>__federation_import(new URL('__federation_shared_react--XDvrPc_.js', import.meta.url).href),import:true},'react-dom':{get:()=>()=>__federation_import(new URL('__federation_shared_react-dom-xrZ2K6C7.js', import.meta.url).href),import:true},'react-router-dom':{get:()=>()=>__federation_import(new URL('__federation_shared_react-router-dom-R7cno0YV.js', import.meta.url).href),import:true},'zustand':{get:()=>()=>__federation_import(new URL('__federation_shared_zustand-JbEsKhep.js', import.meta.url).href),import:true}};
+const moduleMap = {'react':{get:()=>()=>__federation_import(new URL('__federation_shared_react--XDvrPc_.js', import.meta.url).href),import:true},'react-dom':{get:()=>()=>__federation_import(new URL('__federation_shared_react-dom-xrZ2K6C7.js', import.meta.url).href),import:true},'react-router-dom':{get:()=>()=>__federation_import(new URL('__federation_shared_react-router-dom-ZJRX0Xa4.js', import.meta.url).href),import:true},'zustand':{get:()=>()=>__federation_import(new URL('__federation_shared_zustand-1OVWEeHq.js', import.meta.url).href),import:true}};
 const moduleCache = Object.create(null);
 async function importShared(name, shareScope = 'default') {
   return moduleCache[name]
